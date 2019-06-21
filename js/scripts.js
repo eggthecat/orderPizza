@@ -32,18 +32,21 @@ $(document).ready(function(){
     // var flavor = $("input:radio[name=flavor]:checked").val();
     var customerInput = $(input#name).val();
     // // true or false delivery option
-    // var deliveryInput = $(input#delivery).val();
+    var deliveryInput = $(input#delivery).val();
     // // true of false pick-up option
     // var pickUpInput = $(input#pick).val();
     // // option to schedule pick up of pizza
     // //**MAKE SURE TO CREATE ALERT IF BOTH ARE UNSELECTED OR MATCH SELECTED VALUES LIKE YES&&YES
     // var timeInput = $(input#time).val();
     // // input field for customer delivery address
-    // var addressInput = $(input#address).val();
+    var addressInput = $(input#address).val();
     // // input field for customer delivery address
-    // var cityInput = $(input#city).val();
+    var cityInput = $(input#city).val();
     // // input field for customer phone number
-    // var phoneInput = $(input#phone).val();
+    var phoneInput = $(input#phone).val
+    console.log(#name);
+    console.log(#city);
+    console.log(phone);
     // input field for pizza size
   //   var sizeInput = $(input#size).val();
   //   var doughInput = $(input#dough).val();
