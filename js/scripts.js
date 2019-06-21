@@ -11,3 +11,5 @@ let Pizza {
   var meat = ["Bacon", "BBQ Chicken", "Beef", "Cajun Chicken", "Chicken Masala", "Chicken Tikka", "Chorizo", "Duck", "Ham", "Honey Cured Ham", "Meatballs", "Pepperoni", "Proscuitto", "Salami", "Sausage", "Serrano Ham", "Turkey", "Venison"],
   var cheese = ["Blue Cheese", "Brie", "Camembert", "Chedar", "Colby", "Feta", "Gluten-Free", "Goat Cheese", "Gorgonzola", "Limburger", "Manchego", "Monterey Jack", "Parmesan", "Mozzarella", "Muenster", "No Cheese", "Port de Salut", "Provolone", "Ricota", "Romano", "Roquefort", "Smoked Gouda", "Vegan"]
 }
+
+// front-end logic
