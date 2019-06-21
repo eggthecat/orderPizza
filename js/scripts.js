@@ -13,3 +13,8 @@ let Pizza {
 }
 
 // front-end logic
+$(document).ready(function(){
+  $("#formOne").submit(function(event){
+    var sizeInput = $(input#size).val();
+  })
+})
