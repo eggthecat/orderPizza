@@ -16,6 +16,19 @@ label {
 }
 
 header {
+  color: white;
+  opacity: .7;
   font-family: 'Fascinate Inline', cursive;
   text-align: center;
+}
+
+footer {
+  color: grey;
+  opacity: .7;
+  text-align: center;
+  font-size: 12px;
+}
+
+body {
+  background-color: lightblue;
 }
