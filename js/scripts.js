@@ -3,12 +3,25 @@
 function send ()
 {
   if(validate() === false) {
-    reutn;
+    return;
   }
   if (validateRadio()=== false){
-    alert("Please select a")
+    alert("Please select a size");
+    return;
   }
+  if (validatePaymentMethod()=== false)
+  {
+    alert("You have to choose a payment method");
+    return;
+  }
+
+  alert("Your beer order has been sent");
+
+  checkForm();
+
+  return;
 }
+
 
 
 
