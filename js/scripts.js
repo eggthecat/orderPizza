@@ -16,10 +16,21 @@ let Pizza {
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     // var Input = $(input#).val();
-    var nameInput = $(input#name).val();
+    // var flavor = $("input:radio[name=flavor]:checked").val();
+    var customerInput = $(input#name).val();
+    // true or false delivery option
+    var deliveryInput = $(input#delivery).val();
+    // true of false pick-up option
+    var pickInput = $(input#pick).val();
+    // option to schedule pick up of pizza
+    var timeInput = $(input#time).val();
+    // input field for customer delivery address
     var addressInput = $(input#address).val();
+    // input field for customer delivery address
     var cityInput = $(input#city).val();
+    // input field for customer phone number
     var phoneInput = $(input#phone).val();
+    // input field for pizza size
     var sizeInput = $(input#size).val();
     var doughInput = $(input#dough).val();
     var sauceInput = $(input#sauce).val();
