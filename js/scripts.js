@@ -23,6 +23,7 @@ $(document).ready(function(){
     // true of false pick-up option
     var pickInput = $(input#pick).val();
     // option to schedule pick up of pizza
+    //**MAKE SURE TO CREATE ALERT IF BOTH ARE UNSELECTED OR MATCH SELECTED VALUES LIKE YES&&YES
     var timeInput = $(input#time).val();
     // input field for customer delivery address
     var addressInput = $(input#address).val();
