@@ -1,3 +1,9 @@
+html explanation for input&output
+
+ie. document.getElementById("id").innerHTML=5*5;
+
+
+
 **Pizza order details**
 
 let Pizza {
