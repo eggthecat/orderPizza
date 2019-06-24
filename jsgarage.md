@@ -31,6 +31,22 @@ Dog.prototype.humanYears = function() {
   return this.age * 7;
 }
 
+HOW TO SIMPLIFY OBJECT ASSOCIATIONS
+var pdx = { name: "Portland" };
+var sfo = { name: "San Francisco" };
+var sea = { name: "Seattle" };
+var cso = { name: "Aktau" };
+var dzn = { name: "Zhezkazgan" };
+
+var usa = { name: "United States of America", cities: [pdx, sfo, sea] };
+var kazakhstan = { name: "Kazakhstan", cities: [cso, dzn] };
+var uruguay = { name: "Uruguay", cities: [] };
+
+PUSH EXAMPLE
+
+var mlz = { name: "Melo" };
+uruguay.cities.push(mlz);
+
 
 
 // front-end logic
