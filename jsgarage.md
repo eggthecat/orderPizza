@@ -22,6 +22,14 @@ function send ()
   return;
 }
 
+PROTOTYPE EXAMPLES
+Dog.prototype.speak = function() {
+  console.log("Woof!");
+}
+
+Dog.prototype.humanYears = function() {
+  return this.age * 7;
+}
 
 
 
