@@ -18,10 +18,8 @@
       </header>
       <form id="pizzaForm" action="index.html" method="post">
         <div class="onlineOrderBox">
-          <div class="Online Order Form">
             Hello, would you like delivery or pick-up?
-            <input id="delivery" type="radio" value="delivery">Delivery
-            <input id="delivery" type="radio" value="pickUp">Pick-up
+            <input id="delivery" name="delivery" type="radio" value="pickUp">Pick-up
             <br>
             <h3>Please enter the following</h3>
              Name:
@@ -36,11 +34,12 @@
             Phone:
             <input id="phone" type="text" size="50px" name="" value="">
             <br>
+            <button type="button" name="button"></button>
             <input id="orderSubmit"type="BUTTON" value="send" onClick="send()">
             <br>
 
 
-          </div>
+
 
         </div>
       </form>
