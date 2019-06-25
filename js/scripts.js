@@ -1,3 +1,5 @@
+// business logic for pizza ticket
+
 // business logic for pizza order
 var pizza = {s}
 function Pizza(Size, Toppings) {
