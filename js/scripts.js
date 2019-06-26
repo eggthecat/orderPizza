@@ -1,7 +1,19 @@
 // business logic for pizza ticket
+function pizzaOrder() { //A blank array that will store pizza on order
+  this.pizza = [], //'pizza' is object
+  this.currentId = 0
+}
+/*method:add new pizza/locates pizzaOrder pizza array by calling this*/
+pizzaOrder.prototype.addPizza = function(pizza)  { //pizza obj. is argument
+  pizza.id = this.assignId();
+  this.pizza.push(pizza);//add pizza to pizzaOrder array
+}
 
+pizzaOrder.prototype.assignId = function ()  {
+  this.currentId +=1;
+  return this.currentId;
+}
 // business logic for pizza order
-var pizza = {s}
 function Pizza(Size, Toppings) {
   this.size = size;
   this.topping = topping;
