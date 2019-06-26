@@ -25,10 +25,17 @@ Pizza.prototype.fullOrder = function(){
 
 // console.log(Pizza);
 
-// USER INTERFACE
+// USER INTERFACE LOGIC
+var PizzaOrder = new PizzaOrder();  //this is global var
+
 $(document).ready(function(){
   $("form#new-pizza").submit(function(event){
-    eventPrevent.Default();
+    eventPrevent.Default(); //event listener
+    var inputtedPizzaSize = $("input#pizzaTopping").val(); //user info
+    var inputtedPizzaTopping = $("input#pizzaSize").val(); //user info
+    var newPizza = new Pizza(inputtedPizzaSize, inputtedPizzaTopping); //new pizza created
+    pizzaOrder.addPizza(newPizza); //add pizza to pizzaOrder using
+    console.log(pizzaOrder.pizza);
 
   })
 
