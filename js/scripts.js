@@ -23,7 +23,16 @@ Pizza.prototype.fullOrder = function(){
   return this.size + " " + topping;
 }
 
-console.log(Pizza);
+// console.log(Pizza);
+
+// USER INTERFACE
+$(document).ready(function(){
+  $("form#new-pizza").submit(function(event){
+    eventPrevent.Default();
+
+  })
+
+})
 
 
 
