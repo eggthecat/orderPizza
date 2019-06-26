@@ -1,10 +1,10 @@
-// business logic for pizza ticket
+// BUSINESS LOGIC FOR PIZZA ORDER
 function pizzaOrder() { //A blank array that will store pizza on order
-  this.pizza = [], //'pizza' is object
+  this.pizza = [], // this = pizzaOrder/ 'pizza' is object
   this.currentId = 0
 }
-/*method:add new pizza/locates pizzaOrder pizza array by calling this*/
-pizzaOrder.prototype.addPizza = function(pizza)  { //pizza obj. is argument
+//method:add new pizza/ locates pizzaOrder pizza array by calling this
+pizzaOrder.prototype.addPizza = function(pizza)  {// pizza obj. is argument
   pizza.id = this.assignId();
   this.pizza.push(pizza);//add pizza to pizzaOrder array
 }
@@ -13,7 +13,7 @@ pizzaOrder.prototype.assignId = function ()  {
   this.currentId +=1;
   return this.currentId;
 }
-// business logic for pizza order
+// BUSINESS LOGIC FOR INDIVIDUAL PIZZA
 function Pizza(Size, Toppings) {
   this.size = size;
   this.topping = topping;
@@ -32,16 +32,38 @@ console.log(Pizza);
 
 
 
+// var pizzaOrder = new PizzaOrder();
+// var pizza = new Pizza("large", "pepperoni");
+// var pizza2 = new Pizza("medium", "cheese");
+// pizzaOrder.addPizza(pizza);
+// pizzaOrder.addPizza(pizza2);
 
-
-
-
-
-
-
-
-
-
+// Business Logic for AddressBook ---------
+// function AddressBook() {
+//   this.contacts = []
+// }
+//
+// AddressBook.prototype.addContact = function(contact) {
+//   this.contacts.push(contact);
+// }
+//
+// // Business Logic for Contacts ---------
+// function Contact(firstName, lastName, phoneNumber) {
+//   this.firstName = firstName,
+//   this.lastName = lastName,
+//   this.phoneNumber = phoneNumber
+// }
+//
+// Contact.prototype.fullName = function() {
+//   return this.firstName + " " + this.lastName;
+// }
+//
+// // var addressBook;
+// var addressBook = new AddressBook();
+// var contact = new Contact("Ada", "Lovelace", "503-555-0100");
+// var contact2 = new Contact("Grace", "Hopper", "503-555-0199");
+// addressBook.addContact(contact);
+// addressBook.addContact(contact2);
 
 
 
