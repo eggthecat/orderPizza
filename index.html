@@ -12,9 +12,9 @@
     <h1>Slims</h1>
     <form id="orderForm">
       <label for="pizzaSize">What size would you like?</label>
-      <input id="pizzaSize"type="radio" name="size" value="Cheese">Small</input>
-      <input id="pizzaSize"type="radio" name="size" value="Cheese">Medium</input>
-      <input id="pizzaSize"type="radio" name="size" value="Cheese">Large</input>
+      <input id="pizzaSize"type="radio" name="size" value="small">Small</input>
+      <input id="pizzaSize"type="radio" name="size" value="medium">Medium</input>
+      <input id="pizzaSize"type="radio" name="size" value="large">Large</input>
       <br>
       <input id="pizzaTopping" type="radio" name="topping" value="Cheese">Cheese</input>
       <input id="pizzaTopping"type="radio" name="topping" value="Pepperoni">Pepperoni</input>
@@ -22,8 +22,8 @@
       <br>
       <button type="submit" class="btn-primary">Submit </button>
     </form>
-    <ul id="pizzaOrder">
-
-    </ul>
+    <div id="result">
+      <h5>You have purchased a <span id="sizePizza"></span><span id="toppingPizza"></span> </h5>
+    </div>
   </body>
   </html>
