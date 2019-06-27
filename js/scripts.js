@@ -4,7 +4,7 @@ function Pizza(size, topping) {
   this.topping = topping;
 }
 
-Pizza.protoype.getPrice = function() {
+Pizza.prototype.getPrice = function() {
 var price = 0 ;
 if (this.size === 'small') {
   price += 5;
@@ -13,11 +13,22 @@ if (this.size === 'small') {
 } else {
   price += 9;
 }
+
+if (this.topping ===  'Cheese') {
+  price += 1;
+} else if ( this.topping === "Pepperoni") {
+  price += 2;
+} else {
+  price += 3;
+}
+return this.cost = price;
 }
 
+
 Pizza.prototype.fullOrder = function(){
-  return "You have ordered a " + this.size + " pizza with " + this.topping;
+  return "You have ordered a " + this.size + " pizza with " + this.topping + " for a total of $" + this.cost;
 }
+
 
 // console.log(Pizza);
 
@@ -29,7 +40,9 @@ $(document).ready(function(){
     event.preventDefault(); //event listener
     var inputtedPizzaSize = $("input:radio[name=size]:checked").val(); //user info
     var inputtedPizzaTopping = $("input:radio[name=topping]:checked").val(); //user info
-    var newPizza = new Pizza(inputtedPizzaSize, inputtedPizzaTopping); //new pizza created
+    var newPizza = new Pizza(inputtedPizzaSize, inputtedPizzaTopping);
+    newPizza.getPrice();
+     //new pizza created
     // pizzaOrder.addPizza(newPizza); //add pizza to pizzaOrder using
     $("#result").show(newPizza);
     var result = newPizza.fullOrder();
