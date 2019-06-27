@@ -30,25 +30,17 @@ Pizza.prototype.fullOrder = function(){
 }
 
 
-// console.log(Pizza);
-
 // USER INTERFACE LOGIC
-// var PizzaOrder = new PizzaOrder();  //this is global var
-
 $(document).ready(function(){
   $("form#orderForm").submit(function(event){
     event.preventDefault(); //event listener
     var inputtedPizzaSize = $("input:radio[name=size]:checked").val(); //user info
     var inputtedPizzaTopping = $("input:radio[name=topping]:checked").val(); //user info
-    var newPizza = new Pizza(inputtedPizzaSize, inputtedPizzaTopping);
+    var newPizza = new Pizza(inputtedPizzaSize, inputtedPizzaTopping); //new pizza created
     newPizza.getPrice();
-     //new pizza created
-    // pizzaOrder.addPizza(newPizza); //add pizza to pizzaOrder using
     $("#result").show(newPizza);
     var result = newPizza.fullOrder();
     $("#orderedPizza").text(result);
 
-
   })
-
 })
