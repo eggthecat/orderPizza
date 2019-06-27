@@ -1,16 +1,41 @@
-#Slims: My friend who has amazing Pizza!#
-_A Dominic Montelongo Project_
+# _Slims: My friend has amazing pizza_
 
-Purpose: This machine will take your pizza order and print the result on the page.
+#### _A pizza ordering app, 6/2019_
 
-Bugs: Many, this thing doesn't work yet.  
+#### By _**Dominic Montelongo**_
 
-| Behavior |
-|-----|
-|Description|Input|Output|
-|---|---|---|
-|Enter Pizza size and toppings | Radio Buttons and Checkboxes record input|A description of the selected options prints on screen|
+## Description
 
-MIT License
+_The program returns a price after a user picks a pizza size and topping._
 
-_2019 Domingo Studios_
+## Setup/Installation Requirements
+
+* _Click link in gh-pages_
+* _Clone repository_
+
+
+## Specs
+
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| Allow user to pick a pizza size | *click on a pizza size radio button* | Shows selected size |
+| Allow user to choose a topping | *click on a topping radio button* | Shows topping selected |
+| Allow user to see price | *clicks submit button* | Show price of pizza |
+
+## Bugs
+
+_None detected_
+
+## Support and contact details
+
+_Contact Domingo Studio support at 310-827-2000 or dominigostudio@support.com_
+
+## Technologies Used
+
+_This project utilized html and CSS with interactive JavaScript features._
+
+### License
+
+*MIT License*
+
+Copyright (c) 2019 **_Dominigo Studio_**
