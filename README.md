@@ -1,12 +1,12 @@
 # _Slims: My friend has amazing pizza_
 
-#### _A pizza ordering app, 6/2019_
+#### _A pizza ordering app of June 2019_
 
 #### By _**Dominic Montelongo**_
 
 ## Description
 
-_The program returns a price after a user picks a pizza size and topping._
+_The program returns a price after a user picks a pizza size and topping.  Here is a link https://eggthecat.github.io/orderPizza/__
 
 ## Setup/Installation Requirements
 
