@@ -10,9 +10,9 @@ if (this.size === 'small') {
   price += 5;
 } else if ( this.size === 'medium'){
   price += 7;
-} else {
+} else if ( this.size === 'large'){
   price += 9;
-}
+} 
 
 if (this.topping ===  'Cheese') {
   price += 1;
