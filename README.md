@@ -6,7 +6,7 @@
 
 ## Description
 
-_The program returns a price after a user picks a pizza size and topping.  Here is a link https://eggthecat.github.io/orderPizza/__
+_The program returns a price after a user picks a pizza size and topping.  Here is a link https://eggthecat.github.io/orderPizza/
 
 ## Setup/Installation Requirements
 
